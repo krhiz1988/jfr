@@ -159,3 +159,15 @@
 .bg-form {
     background-color: #f3f3f3 !important;
 }
+
+.btn-whatssap {
+    background-color: #189d0e;
+    color: #fff;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.img-reyes {
+    height: 271px !important;
+}
