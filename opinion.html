@@ -47,11 +47,12 @@
     </script><noscript> <img height="1" width="1"
             src="https://www.facebook.com/tr?id=1369659560056223&ev=PageView&noscript=1" /></noscript>
     <!-- End Facebook Pixel Code -->
+
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-navbar">
-        <a class="navbar-brand ml-5" href="#"><img src="assets/img/logo2.png" alt="logo"></a>
+        <a class="navbar-brand ml-5" href="#"><img class="logo-menu" src="assets/img/logo.png" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -127,21 +128,21 @@
                 <form>
                     <div class="form-group">
                         <label for="exampleFormControlTextarea1">Dime acá, ¿Cuál es tu jugada?</label>
-                        <textarea class="form-control bg-form" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <textarea class="form-control bg-form" name="mensaje" id="mensaje" rows="3"></textarea>
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlTextarea1">Nombre</label>
-                        <input class="form-control bg-form" type="text" placeholder="">
+                        <input class="form-control bg-form" name="nombre" id="nombre" type="text" placeholder="">
                     </div>
                     <div class="form-group">
                         <label for="exampleInputEmail1">Correo electrónico</label>
-                        <input type="email" class="form-control bg-form" id="exampleInputEmail1"
+                        <input type="email" class="form-control bg-form" name="email" id="email"
                             aria-describedby="emailHelp">
                     </div>
 
                     <div class="form-group">
                         <label for="exampleFormControlTextarea1">Teléfono</label>
-                        <input class="form-control bg-form" type="text" placeholder="">
+                        <input class="form-control bg-form" id="telefono" name="telefono" type="text" placeholder="">
                     </div>
 
 
@@ -155,7 +156,7 @@
     <footer>
         <div class="row bg-footer mx-0 p-4">
             <div class="col-12 col-sm-6 d-flex align-items-center justify-content-center">
-                <img src="assets/img/logo-blanco.png" alt="">
+                <img class="logo-menu" src="assets/img/logo.png" alt="">
             </div>
 
             <div class="col-12 col-sm-6 icon-footer d-flex align-items-center">
