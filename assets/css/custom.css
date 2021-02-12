@@ -176,3 +176,8 @@
     width: 150px;
     height: 75px;
 }
+
+.lista ul li {
+    color: #71ccdb;
+    font-weight: bold;
+}
