@@ -22,29 +22,31 @@ try {
     //Server settings
     $mail->SMTPDebug = 0;                      // Enable verbose debug output
     $mail->isSMTP();                                            // Send using SMTP
-    $mail->Host       = 'smtp.live.com';                    // Set the SMTP server to send through
+    $mail->Host       = 'smtp.gmail.com';                    // Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-    $mail->Username   = '';                     // SMTP username
-    $mail->Password   = '';                               // SMTP password
+    $mail->Username   = 'contactojfr2021@gmail.com';                     // SMTP username
+    $mail->Password   = 'concejal2021';                               // SMTP password
     $mail->SMTPSecure = 'ssl';         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
     $mail->Port       = 465;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
     //Recipients
     $mail->setFrom($email, $nombre);
-    $mail->addAddress('cristian.rivera@meetcard.cl');     // Add a recipient
+    $mail->addAddress('juanfcoprovidencia2021@gmail.com');     // Add a recipient
 
 
  
 
     // Content
     $mail->isHTML(true);                                  // Set email format to HTML
-    $mail->Subject = 'Here is the subject';
+    $mail->Subject = 'Formulario de Contacto';
     $mail->Body = $body;
+    $mail->CharSet = 'UTF-8';
 
 
     $mail->send();
-    echo 'La jugada se ha enviado correctamente.';
+    echo 
+    "<script> alert('La jugada se ha enviado correctamente.'); window.location.href='index.html'</script>;";
 } catch (Exception $e) {
-    echo "Hubo un problema: {$mail->ErrorInfo}";
+    echo "<script> alert('La jugada no se ha enviado correctamente.'); window.location.href='index.html'</script>;";
 }
 ?>
