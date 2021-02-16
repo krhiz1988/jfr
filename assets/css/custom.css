@@ -88,10 +88,19 @@
     padding-right: 20px;
 }
 
+.btn-partida:hover {
+    background-color: #999999 !important;
+    color: white !important;
+    font-weight: bold;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .bg-footer {
     background-color: #999999;
     color: #fff;
-    height: 140px;
+    height: 160px;
 }
 
 .vl {
@@ -153,6 +162,15 @@
         margin-left: 20px;
     }
 
+    .text-titulo h2 {
+        font-size: 28px;
+    }
+
+    .titulos-propuestas h3 {
+        font-size: 22px;
+        text-align: center;
+    }
+
 
 }
 
@@ -184,4 +202,38 @@
 .lista ul li {
     color: #71ccdb;
     font-weight: bold;
+}
+
+.jugadas {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000;
+}
+
+.jugadas:hover .overlay {
+    opacity: 0.8;
+}
+
+.text {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
