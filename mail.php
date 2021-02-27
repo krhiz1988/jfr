@@ -1,11 +1,12 @@
 <?php
 
 $nombre = $_POST['nombre'];
+$apellido = $_POST['apellido'];
 $mensaje = $_POST['mensaje'];
 $email = $_POST['email'];
 $telefono = $_POST['telefono'];
 
-$body = "Nombre:" . $nombre . "<br>Correo: " . $email . "<br>Teléfono: " . $telefono . "<br>Mensaje: " . $mensaje;
+$body = "Nombre: " . $nombre ."<br>Apellido: ".$apellido. "<br>Correo: " . $email . "<br>Teléfono: " . $telefono . "<br>Mensaje: " . $mensaje;
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
