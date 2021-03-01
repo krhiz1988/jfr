@@ -97,6 +97,16 @@
     padding-right: 20px;
 }
 
+.btn-whatssap:hover {
+    background-color: #999999 !important;
+    color: white !important;
+    font-weight: bold;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
 
 
 .vl {
@@ -119,6 +129,28 @@
 }
 
 @media (max-width: 575px) {
+
+    .text-experiencias p {
+        color: #999999;
+        font-size: 12px !important;
+    }
+
+    .tamaño {
+        height: 220px !important;
+    }
+
+    .tamaño-card {
+        height: 170px !important;
+    }
+
+    .tamaño-card2 {
+        height: 260px !important;
+    }
+
+    .text-jugadas {
+        font-size: 14px !important;
+    }
+
     .bg-footer {
         background-color: #52A4A4;
         color: #fff;
@@ -249,16 +281,13 @@
     font-size: 14px;
 }
 
-.text-experiencias label {
-    color: #999999;
-    font-size: 14px;
-    font-style: italic;
-}
-
 .text-experiencias p {
     color: #999999;
-    font-size: 12px;
+    font-size: 14px;
 }
+
+
+
 
 .bg-tablero {
     background-image: url("../img/fondo-tablero.png");
@@ -290,4 +319,23 @@
 
 .card-list ul {
     padding-inline-start: 25px !important;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .text-experiencias p {
+        color: #999999;
+        font-size: 12px !important;
+    }
+
+    .tamaño {
+        height: 215px !important;
+    }
+
+    .tamaño-card {
+        height: 180px !important;
+    }
+
+    .tamaño-card2 {
+        height: 230px !important;
+    }
 }
