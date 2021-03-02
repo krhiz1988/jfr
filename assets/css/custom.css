@@ -136,6 +136,11 @@
         font-size: 12px !important;
     }
 
+    .imagen-width {
+        width: 158px !important;
+        height: 158px !important;
+    }
+
     .imagen-repeat img {
         display: none;
     }
@@ -151,11 +156,11 @@
     }
 
     .tamaño-card {
-        height: 170px !important;
+        height: 130px !important;
     }
 
     .tamaño-card2 {
-        height: 260px !important;
+        height: 120px !important;
     }
 
     .text-jugadas {
