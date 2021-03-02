@@ -136,6 +136,10 @@
         font-size: 12px !important;
     }
 
+    .imagen-repeat img {
+        display: none;
+    }
+
     .opinion {
         display: flex !important;
         justify-content: center !important;
@@ -315,7 +319,7 @@
 }
 
 .padding-card {
-    padding: 15px !important;
+    padding: 20px !important;
 }
 
 .card-list ul li {
@@ -344,5 +348,19 @@
 
     .tamaño-card2 {
         height: 230px !important;
+    }
+
+    .imagen-repeat {
+        display: none;
+    }
+}
+
+.tamaño-icon i {
+    font-size: 20px;
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .imagen-repeat {
+        display: none !important;
     }
 }
