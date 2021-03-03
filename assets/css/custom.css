@@ -238,6 +238,10 @@
         align-items: center;
     }
 
+    .text {
+        font-size: 6px !important;
+    }
+
 
 }
 
