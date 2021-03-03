@@ -135,6 +135,14 @@
         display: none;
     }
 
+    .carousel {
+        display: block !important;
+    }
+
+    .margen-card1 {
+        margin-left: 0px !important;
+    }
+
     .text-experiencias p {
         color: #999999;
         font-size: 12px !important;
@@ -372,5 +380,11 @@
 @media (min-width: 577px) and (max-width: 768px) {
     .imagen-repeat {
         display: none !important;
+
+
     }
+}
+
+.carousel {
+    display: none;
 }
