@@ -388,3 +388,11 @@
 .carousel {
     display: none;
 }
+
+.carousel-indicators {
+    top: 350px !important;
+}
+
+.carousel-indicators li {
+    background-color: black !important;
+}
