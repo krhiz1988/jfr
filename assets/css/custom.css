@@ -130,6 +130,9 @@
 }
 
 @media (max-width: 575px) {
+    .text-mobile h2 {
+        text-align: center !important;
+    }
 
     .esconder {
         display: none;
