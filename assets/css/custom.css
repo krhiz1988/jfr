@@ -400,3 +400,9 @@
 .carousel-indicators li {
     background-color: black !important;
 }
+
+.text-cursiva {
+    font-style: italic;
+    font-size: 18px;
+
+}
