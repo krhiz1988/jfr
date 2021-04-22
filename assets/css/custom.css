@@ -423,10 +423,10 @@
 }
 
 .card-text-opinion a {
-    text-decoration: none;
-    list-style-type: none;
+    text-decoration: none !important;
+    list-style-type: none !important;
     color: #fff !important;
-    font-weight: bold;
+    font-weight: bold !important;
 }
 
 .card-body-custom {
