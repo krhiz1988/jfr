@@ -130,6 +130,18 @@
 }
 
 @media (max-width: 575px) {
+
+    .card-body-custom {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important
+    }
+
+    .card-custom {
+        display: flex !important;
+        justify-content: center !important;
+    }
+
     .text-mobile h2 {
         text-align: center !important;
     }
@@ -408,4 +420,16 @@
     font-style: italic;
     font-size: 18px;
 
+}
+
+.card-text-opinion a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.card-body-custom {
+    display: flex !important;
+    align-items: center !important
 }
