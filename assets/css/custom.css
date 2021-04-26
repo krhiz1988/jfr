@@ -439,3 +439,11 @@
     display: flex !important;
     align-items: center !important
 }
+
+.modal-header-custom {
+    border-bottom: none !important;
+}
+
+/* .modal-lg {
+    width: 620px !important;
+} */
