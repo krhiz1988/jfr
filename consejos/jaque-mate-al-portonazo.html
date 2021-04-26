@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
         integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/custom.css">
-    <link href="assets/css/hover.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/custom.css">
+    <link href="../assets/css/hover.css" rel="stylesheet" media="all">
     <title>Juan Francisco Reyes</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-LZJ380MQEJ"></script>
@@ -69,7 +69,8 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-navbar">
-        <a class="navbar-brand ml-5" href="index.html"><img class="logo-menu" src="assets/img/logo.png" alt="logo"></a>
+        <a class="navbar-brand ml-5" href="../index.html"><img class="logo-menu" src="../assets/img/logo.png"
+                alt="logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -78,7 +79,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link menu" href="index.html">REYes</a>
+                    <a class="nav-link menu" href="../index.html">REYes</a>
                 </li>
 
                 <li>
@@ -86,7 +87,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link menu" href="propuesta.html">Nuestras Propuestas</a>
+                    <a class="nav-link menu" href="../propuesta.html">Nuestras Propuestas</a>
                 </li>
 
                 <li>
@@ -94,19 +95,20 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link menu" href="opinion.html">¿Cuál es tu jugada?</a>
+                    <a class="nav-link menu" href="../opinion.html">¿Cuál es tu jugada?</a>
+                </li>
+
+                <li>
+                    <div class="vertical-line" />
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link menu" href="../seccionOpinion.html">Opiniones</a>
                 </li>
                 <li>
                     <div class="vertical-line" />
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link menu" style="color:#52A4A4" href="seccionOpinion.html">Opiniones</a>
-                </li>
-                <li>
-                    <div class="vertical-line" />
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link menu" href="consejos.html">Consejos</a>
+                    <a class="nav-link menu" style="color:#52A4A4" href="../consejos.html">Consejos</a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">
@@ -130,59 +132,89 @@
             <div class="col-12 col-sm-2 col-md-1 mb-5 centrar icono-orden">
                 <i class="fas fa-chess fa-3x color-icon"></i>
             </div>
-            <div class="col-10 col-sm-10 d-flex align-items-center mt-2 mb-5 centrar text-titulo">
-                <h2 class="titulo-mobile" style="color: #52A4A4; font-weight: bold;">Consejos</h2>
+            <div class="col-10 col-sm-10 d-flex align-items-center mt-2 mb-5  text-titulo">
+                <h2 style="color: #52A4A4; font-weight: bold;">Jaque mate al Portonazo</h2>
             </div>
         </div>
 
-        <div class="row d-flex justify-content-center card-custom" style="margin-bottom: 200px;">
+        <div class="row d-flex justify-content-center">
+            <div class="col-11 col-sm-4 my-2">
+                <a class="d-none d-sm-block" style="cursor: pointer;" data-toggle="modal" data-target="#imagenUno"><img
+                        class="img-fluid" src="../assets/img/1.jpg" alt=""></a>
+                <img class="img-fluid d-sm-none d-md-none d-lg-none d-xl-none" src="../assets/img/1.jpg" alt="">
+            </div>
+            <div class="modal fade" id="imagenUno" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header modal-header-custom">
+                            <h2 class="modal-title" style="color: #52A4A4; font-weight: bold;">Consejos</h2>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-fluid" src="../assets/img/1.jpg" alt="" srcset="">
+                        </div>
 
-            <div class="col-10 col-sm-4 col-md-3 py-2">
-                <div class="card" style="background-color: #52A4A4; height: 150px">
-                    <div class="card-body card-body-custom text-center card-text-opinion">
-                        <a href="consejos/jaque-mate-al-portonazo.html">Jaque mate al Portonazo</a>
                     </div>
                 </div>
             </div>
 
-            <div class="col-10 col-sm-4 col-md-3 py-2">
-                <div class="card" style="background-color: #52A4A4; height: 150px">
-                    <div class="card-body card-body-custom text-center card-text-opinion">
-                        <a href="consejos/jaque-mate-al-robo.html">Jaque mate al Robo</a>
+            <div class="col-11 col-sm-4 my-2">
+                <a class="d-none d-sm-block" style="cursor: pointer;" data-toggle="modal" data-target="#imagenDos"><img
+                        class="img-fluid" src="../assets/img/2.jpg" alt=""></a>
+                <img class="img-fluid d-sm-none d-md-none d-lg-none d-xl-none" src="../assets/img/2.jpg" alt="">
+            </div>
+            <div class="modal fade" id="imagenDos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header modal-header-custom">
+                            <h2 class="modal-title" style="color: #52A4A4; font-weight: bold;">Consejos</h2>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-fluid" src="../assets/img/2.jpg" alt="" srcset="">
+                        </div>
+
                     </div>
                 </div>
             </div>
 
-            <div class="col-10 col-sm-4 col-md-3 py-2">
-                <div class="card" style="background-color: #52A4A4; height: 150px">
-                    <div class="card-body card-body-custom text-center card-text-opinion">
-                        <a href="consejos/seguridad-en-edificios.html">Seguridad en Edificios</a>
+            <div class="col-11 col-sm-4 my-2">
+                <a class="d-none d-sm-block" style="cursor: pointer;" data-toggle="modal" data-target="#imagenTres"><img
+                        class="img-fluid" src="../assets/img/3.jpg" alt=""></a>
+                <img class="img-fluid d-sm-none d-md-none d-lg-none d-xl-none" src="../assets/img/3.jpg" alt="">
+            </div>
+            <div class="modal fade" id="imagenTres" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header modal-header-custom">
+                            <h2 class="modal-title" style="color: #52A4A4; font-weight: bold;">Consejos</h2>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-fluid" src="../assets/img/3.jpg" alt="" srcset="">
+                        </div>
+
                     </div>
                 </div>
             </div>
-
         </div>
-
-
-
-
-
     </div>
-
-
-
-
-
-
 
     <footer>
         <div class="row bg-footer mx-0 p-4">
             <div class="col-12 col-sm-4 d-flex align-items-center justify-content-start centrar">
-                <img class="logo-menu" src="assets/img/logo footer.png" alt="">
+                <img class="logo-menu" src="../assets/img/logo footer.png" alt="">
             </div>
 
             <div class="col-12 col-sm-4 d-flex align-items-center justify-content-center centrar">
-                <img style="width: 345px; height: 65px;" src="assets/img/providencia.png" alt="">
+                <img style="width: 345px; height: 65px;" src="../assets/img/providencia.png" alt="">
             </div>
 
             <div class="col-12 col-sm-4 icon-footer d-flex justify-content-end align-items-center centrar">
@@ -214,7 +246,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
     </script>
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
 
 </body>
 
